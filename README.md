@@ -2,7 +2,9 @@
  A Lofi hiphop site.
 
 ## A Fazer:
-* Desenvolver index do site []
-* Fazer o módulo do perfil []
-* Fazer o módulo das Config []
-* Fazer o módulo das Imagens e GIFS [] 
+* Terminar de desenvolver index do site []
+* Criar o sistema do player []
+* Criar o sistema das imagens e gifs []
+* Fazer a página do perfil []
+* Fazer a página das Config []
+* Fazer a página das Imagens e GIFS []
