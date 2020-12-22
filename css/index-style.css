@@ -121,11 +121,6 @@ body {
 /* Formatação do player: */
 
 .no-player {
-    display: none;
-    position: fixed;
-}
-
-.player {
     display: block;
     position: fixed;
     bottom: 0;
@@ -134,9 +129,18 @@ body {
     padding: 0;
     margin: 0;
     height: 200px;
+    background-color: transparent;
 }
-.player:hover {
+
+.player {
     display: none;
+    position: fixed;
+    bottom: 0;
+    z-index: 4;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    height: 200px;
 }
 
 #track-name {
