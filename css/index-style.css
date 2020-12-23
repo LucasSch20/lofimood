@@ -22,6 +22,7 @@ body {
 /* Formatação do corpo do cabeçalho */
 
 .header {
+    position: relative;
     padding:0;
     margin:0;
     background-color:#131313;
@@ -68,7 +69,7 @@ body {
 #icons li {
     list-style: none;
     padding: 0;
-    margin:20px;
+    margin:15px;
     width: 25px;
     height:25px;
 }
@@ -106,32 +107,162 @@ body {
     transition: background-image 0.3s;
 }
 
+#About-Policies {
+    background-image: url('../itens/ico/AboutePolicies.png');
+    background-repeat: no-repeat;
+}
+#About-Policies:hover {
+    background-image: url('../itens/ico/AboutePolicies\ claro.png');
+    background-repeat: no-repeat;
+    transition: background-image 0.3s;
+}
+
 
 
 /* Fim da Formatação do cabeçalho */
 
 /* Formatação dos Menus */
 
-.mainCointainer {
+@keyframes blackEf{
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 80%;
+    }
+}
+
+@keyframes containerEf {
+    from {
+        height: 0;
+        width: 0;
+        border-radius: 0;
+    }
+    to {
+        height: 70%;
+        width: 60%;
+        border-radius: 10px;
+    }
+}
+.Login-Singup {
+    position: fixed;
+    display: none;
+    z-index: 200;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+#containerLogSig {
+    position: absolute;
     display: flex;
-    position:fixed;
     z-index: 10;
-    left: 20%;
-    top: 15%;
     height: 70%;
     width: 60%;
     background-color: #131313;
-    border-radius: 5px;
+    border-radius: 10px;
+    justify-content: space-between;
+
+    animation-name: containerEf;
+    animation-duration: 0.5s;
+
+    padding:20px;
+}
+#containerLogSig h1 {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    margin-right: 10px;
 }
 
-.blackBack {
-    display: none;
+.Profile {
     position: fixed;
+    display: none;
+    z-index: 200;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+#containerProf {
+    position: absolute;
+    display: flex;
+    z-index: 10;
+    height: 70%;
+    width: 60%;
+    background-color: #131313;
+    border-radius: 10px;
+
+    animation-name: containerEf;
+    animation-duration: 0.5s;
+
+    padding:20px;
+}
+#containerProf h1 {
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+.Configuration {
+    position: fixed;
+    display: none;
+    z-index: 200;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+#containerConfig {
+    position: absolute;
+    display: flex;
+    z-index: 10;
+    height: 70%;
+    width: 60%;
+    background-color: #131313;
+    border-radius: 10px;
+
+    animation-name: containerEf;
+    animation-duration: 0.5s;
+
+    padding:20px;
+}
+
+.About-Policies {
+    position: fixed;
+    display: none;
+    z-index: 200;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+#containerAbPol {
+    position: absolute;
+    display: flex;
+    z-index: 10;
+    height: 70%;
+    width: 60%;
+    background-color: #131313;
+    border-radius: 10px;
+
+    animation-name: containerEf;
+    animation-duration: 0.5s;
+
+    padding:20px;
+}
+
+
+
+#blackback {
+    position: absolute;
+    display: block;
     z-index: 9;
     height: 100%;
     width: 100%;
     background-color: black;
     opacity: 80%;
+    animation-name: blackEf;
+    animation-duration: 0.5s;
 }
 
 
@@ -229,8 +360,52 @@ body {
     color: white;
 }
 #pa-itens {
+    display: flex;
+}
+
+#player-btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     list-style: none;
 }
-#pa-itens li {
+
+#player-btns li {
     display: inline-block;
+}
+#player-btns li:hover {
+    cursor: pointer;
+}
+
+#before-btn {
+    height: 40px;
+    width: 40px;
+    background-image:url('../itens/ico/Before.png');
+    margin: 10px;
+}
+#before-btn:hover {
+    background-image: url('../itens/ico/Before\ claro.png');
+    transition: background-image 0.3s;
+}
+
+#play-btn {
+    height: 60px;
+    width: 60px;
+    background-image: url('../itens/ico/Play.png');
+    margin: 10px;
+}
+#play-btn:hover {
+    background-image: url('../itens/ico/Play\ claro.png');
+    transition: background-image 0.3s;
+}
+
+#next-btn {
+    height: 40px;
+    width: 40px;
+    background-image:url('../itens/ico/Next.png');
+    margin: 10px;
+}
+#next-btn:hover {
+    background-image: url('../itens/ico/Next\ claro.png');
+    transition: background-image 0.3s;
 }

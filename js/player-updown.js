@@ -1,6 +1,6 @@
 let player = document.querySelector('.player')
 let noplayer = document.querySelector('.no-player')
-let mainframe = document.querySelector('.main-frame')
+let header = document.querySelector('header')
 
 noplayer.addEventListener('mouseenter', function () {
     player.style.animationName = 'playerUp';
@@ -10,6 +10,11 @@ noplayer.addEventListener('mouseenter', function () {
 })
 
 player.addEventListener('mouseleave', function () {
+    player.style.animationName = 'playerDown';
+    player.style.animationDuration = '0.5s';
+    noplayer.style.display = 'block';
+})
+header.addEventListener('mouseenter', function() {
     player.style.animationName = 'playerDown';
     player.style.animationDuration = '0.5s';
     noplayer.style.display = 'block';

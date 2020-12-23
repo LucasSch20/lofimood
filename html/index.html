@@ -13,6 +13,34 @@
 
 <body>
 
+    <!-- Seção do Menu Login/Cadastro -->
+    <section class="Login-Singup">
+        <div id="blackback"></div>
+        <div id="containerLogSig">
+            <h1>Login/Cadastro</h1>
+            <h1>icon</h1>
+        </div>
+    </section>
+
+    <!-- Seção do Menu Perfil -->
+    <section class="Profile">
+        <div id="blackback"></div>
+        <div id="containerProf"></div>
+    </section>
+
+    <!-- Seção do Menu Configurações -->
+    <section class="Configuration">
+        <div id="blackback"></div>
+        <div id="containerConfig"></div>
+    </section>
+
+    <!-- Seção do Menu Sobre e Políticas de Privacidade -->
+    <section class="About-Policies">
+        <div id="blackback"></div>
+        <div id="containerAbPol"></div>
+    </section>
+
+
     <!-- Cabeçalho da página -->
     <header class="header">
         <div id="header-itens">
@@ -23,9 +51,10 @@
 
 
             <ul id="icons">
-                <li id="Galery"></li>
-                <li id="Config"></li>
-                <li id="Profile-Login"></li>
+                <li onclick="openMenuPolicies()" id="About-Policies"></li>
+                <li onclick="openMenuGalery()" id="Galery"></li>
+                <li onclick="openMenuConfig()" id="Config"></li>
+                <li onclick="openMenuLogCad()" id="Profile-Login"></li>
             </ul>
 
 
@@ -33,25 +62,6 @@
 
     </header>
 
-    <!-- Seção do Login/Cadastro -->
-    <section class="Login-Singup">
-        <div class="mainContainer"></div>
-        <div class="blackBack"></div>
-    </section>
-
-    <!-- Seção do Perfil -->
-    <section class="Profile">
-
-    </section>
-
-    <!-- Seção das Configurações -->
-    <section class="Configuration">
-
-    </section>
-
-    <!-- Seção Sobre e Políticas de Privacidade -->
-    <section class="About-Policies">
-    </section>
 
     <!-- Seção do gif/imagem -->
     <section class="main-frame"></section>
@@ -73,9 +83,9 @@
         <div id="player-area">
             <div id="pa-itens">
                 <div id="player-btns">
-                    <li id="before">before</li>
-                    <li id="play">play</li>
-                    <li id="next">next</li>
+                    <li id="before-btn"></li>
+                    <li id="play-btn"></li>
+                    <li id="next-btn"></li>
                 </div>
             </div>
 
@@ -85,6 +95,7 @@
     </section>
 
     <script src="../js/player-updown.js"></script>
+    <script src="../js/open-menu.js"></script>
 </body>
 
 </html>
