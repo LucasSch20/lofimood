@@ -1,11 +1,11 @@
 
 var play = document.querySelector('#play-btn');
 var pause = document.querySelector('#pause-btn');
-var randomTrackID = Math.floor((Math.random * 100) + 1);
 var music = document.querySelector('#audio')
 var trackName = document.querySelector('#tn-text').InnerText;
+var trackNum = 0;
 
-var playedTracks = [] //Array das musicas já tocadas. 
+
 
 
 //Funções do botões do player:
@@ -15,6 +15,7 @@ function playTrack() {
     pause.style.display = 'block';
     music.play();
 }
+
 function pauseTrack() {
     play.style.display = 'block';
     pause.style.display = 'none';
@@ -25,22 +26,16 @@ function nextTrack() {
 
     playTrack();
 
-    var trackID = Math.floor(Math.random() * (2 - 0 + 1)) + 0;    
-    playedTracks.push(trackID);
+    trackNum = trackNum + 1;
 
-    music.src = trackList[trackID].src;
+    music.src = trackList[trackNum].src;
     music.play()
 }
 
 function beforeTrack() {
-    var trackID = 'idk yet';
+    trackNum = trackNum - 1;
 
-    trackName = trackList[trackID].Name
-    music.src = trackList[trackID].src;
+    trackName = trackList[trackNum].Name
+    music.src = trackList[trackNum].src;
     music.play();
-}
-
-let trackinfo = {
-    nome: 'Nome da Música',
-    arquivo: ''
 }

@@ -76,26 +76,31 @@
 
         <div id="track-name">
             <div id="tn-itens">
-                <h1>Track name</h1>
+                <h1 id="tn-text">Track name</h1>
             </div>
         </div>
 
         <div id="player-area">
             <div id="pa-itens">
                 <div id="player-btns">
-                    <li id="before-btn"></li>
-                    <li id="play-btn"></li>
-                    <li id="next-btn"></li>
+                    <li onclick="beforeTrack()" id="before-btn"></li>
+                    <li id="playpause-btn">
+                        <div onclick="playTrack()" id="play-btn"></div>
+                        <div onclick="pauseTrack()" id="pause-btn"></div>
+                    </li>
+                    <li onclick="nextTrack()" id="next-btn"></li>
                 </div>
             </div>
 
         </div>
 
-        <audio src=""></audio>
+        <audio id="audio" src="../itens/musics/90sFlav - Call me_160k.mp3"></audio>
     </section>
 
     <script src="../js/player-updown.js"></script>
     <script src="../js/open-menu.js"></script>
+    <script src="../js/player-funcionalities-base.js"></script>
+    <script src="../js/trackList.js"></script>
 </body>
 
 </html>

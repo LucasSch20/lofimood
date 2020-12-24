@@ -389,6 +389,7 @@ body {
 }
 
 #play-btn {
+    display: block;
     height: 60px;
     width: 60px;
     background-image: url('../itens/ico/Play.png');
@@ -396,6 +397,18 @@ body {
 }
 #play-btn:hover {
     background-image: url('../itens/ico/Play\ claro.png');
+    transition: background-image 0.3s;
+}
+
+#pause-btn {
+    display: none;
+    height: 60px;
+    width: 60px;
+    background-image: url('../itens/ico/Pause.png');
+    margin: 10px;
+}
+#pause-btn:hover {
+    background-image: url('../itens/ico/Pause\ claro.png');
     transition: background-image 0.3s;
 }
 
