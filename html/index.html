@@ -17,27 +17,86 @@
     <section class="Login-Singup">
         <div id="blackback"></div>
         <div id="containerLogSig">
-            <h1>Login/Cadastro</h1>
-            <h1>icon</h1>
+
+            <div class="MenuTitle">
+                <div class="MenuHead">
+                    <div id="logsigicon"></div>
+                    <h1>Login/Cadastro</h1>
+                </div>
+
+                <div onclick="closeMenuLogSig()" id="Xbtn"></div>
+            </div>
+
         </div>
     </section>
 
     <!-- Seção do Menu Perfil -->
     <section class="Profile">
         <div id="blackback"></div>
-        <div id="containerProf"></div>
+        <div id="containerProf">
+
+            <div class="MenuTitle">
+                <div class="MenuHead">
+                    <div id="logsigicon"></div>
+                    <h1>Perfil</h1>
+                </div>
+
+                <div onclick="closeMenuProfile()" id="Xbtn"></div>
+            </div>
+
+        </div>
     </section>
 
     <!-- Seção do Menu Configurações -->
     <section class="Configuration">
         <div id="blackback"></div>
-        <div id="containerConfig"></div>
+        <div id="containerConfig">
+
+            <div class="MenuTitle">
+                <div class="MenuHead">
+                    <div id="ConfigIcon"></div>
+                    <h1>Configurações</h1>
+                </div>
+
+                <div onclick="closeMenuConfig()" id="Xbtn"></div>
+            </div>
+
+        </div>
     </section>
+
+    <!-- Seção do Menu da Galeria de Imagens e Gifs -->
+    <section class="Galery">
+        <div id="blackback"></div>
+        <div id="containerGalery">
+
+            <div class="MenuTitle">
+                <div class="MenuHead">
+                    <div id="GaleryIcon"></div>
+                    <h1>Galeria</h1>
+                </div>
+
+                <div onclick="closeMenuGalery()" id="Xbtn"></div>
+            </div>
+
+        </div>
+    </section>
+
 
     <!-- Seção do Menu Sobre e Políticas de Privacidade -->
     <section class="About-Policies">
         <div id="blackback"></div>
-        <div id="containerAbPol"></div>
+        <div id="containerAbPol">
+
+            <div class="MenuTitle">
+                <div class="MenuHead">
+                    <div id="AbtPolIcon"></div>
+                    <h1>Sobre / Políticas</h1>
+                </div>
+
+                <div onclick="closeMenuPolicies()" id="Xbtn"></div>
+            </div>
+
+        </div>
     </section>
 
 
@@ -54,7 +113,7 @@
                 <li onclick="openMenuPolicies()" id="About-Policies"></li>
                 <li onclick="openMenuGalery()" id="Galery"></li>
                 <li onclick="openMenuConfig()" id="Config"></li>
-                <li onclick="openMenuLogCad()" id="Profile-Login"></li>
+                <li onclick="openMenuLogSig()" id="Profile-Login"></li>
             </ul>
 
 
@@ -76,7 +135,7 @@
 
         <div id="track-name">
             <div id="tn-itens">
-                <h1 id="tn-text">Track name</h1>
+                <h1 id="tn-text">90sFlav - Call Me</h1>
             </div>
         </div>
 
@@ -97,10 +156,14 @@
         <audio id="audio" src="../itens/musics/90sFlav - Call me_160k.mp3"></audio>
     </section>
 
-    <script src="../js/player-updown.js"></script>
+    <script src="../js/player/player-updown.js"></script>
     <script src="../js/open-menu.js"></script>
-    <script src="../js/player-funcionalities-base.js"></script>
+    <script src="../js/player/player-funcionalities-base.js"></script>
     <script src="../js/trackList.js"></script>
+    <script src="../js/Agifs/gifList.js"></script>
+    <script src="../js/Agifs/day-night.js"></script>
+    <script src="../js/Agifs/gif-system.js"></script>
+
 </body>
 
 </html>

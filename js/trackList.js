@@ -1,5 +1,6 @@
 
-var trackList = [track1 = {
+var trackList = [
+    track1 = {
     name: 'Call Me - 90sFlav',
     src: '../itens/musics/90sFlav - Call me_160k.mp3' 
 },

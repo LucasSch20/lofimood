@@ -1,7 +1,12 @@
-function openMenuLogCad() {
+function openMenuLogSig() {
     let menuLoginCad = document.querySelector('.Login-Singup');
 
     menuLoginCad.style.display = 'flex';
+}
+function closeMenuLogSig() {
+    let menuLoginCad = document.querySelector('.Login-Singup');
+
+    menuLoginCad.style.display = 'none';
 }
 
 function openMenuProfile() {
@@ -9,21 +14,41 @@ function openMenuProfile() {
 
     menuProfile.style.display = 'flex'
 }
-
-function openMenuConfig() {
+function closeMenuProfile() {
     let menuProfile = document.querySelector('.Profile');
 
+    menuProfile.style.display = 'none'
+}
+
+function openMenuConfig() {
+    let menuProfile = document.querySelector('.Configuration');
+
     menuProfile.style.display = 'flex'
+}
+function closeMenuConfig() {
+    let menuProfile = document.querySelector('.Configuration');
+
+    menuProfile.style.display = 'none'
 }
 
 function openMenuGalery() {
-    let menuProfile = document.querySelector('.Profile');
+    let menuProfile = document.querySelector('.Galery');
 
     menuProfile.style.display = 'flex'
 }
+function closeMenuGalery() {
+    let menuProfile = document.querySelector('.Galery');
+
+    menuProfile.style.display = 'none'
+}
 
 function openMenuPolicies() {
-    let menuProfile = document.querySelector('.Profile');
+    let menuProfile = document.querySelector('.About-Policies');
 
     menuProfile.style.display = 'flex'
+}
+function closeMenuPolicies() {
+    let menuProfile = document.querySelector('.About-Policies');
+
+    menuProfile.style.display = 'none'
 }
