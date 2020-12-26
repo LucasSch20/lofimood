@@ -19,7 +19,7 @@ var gifListNight = [
     },
     {
         src: "url('../../itens/images/night/3.gif')"
-    }
+    },
     {
         src: "url('../../itens/images/night/4.gif')"
     }
