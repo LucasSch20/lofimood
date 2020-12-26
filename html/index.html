@@ -13,6 +13,34 @@
 
 <body>
 
+
+    <!-- Mensagem Inicial -->
+    <section class="initial-msg">
+        <div id="blackback"></div>
+        <div id="im-container">
+            <hgroup id="im-title">
+                <h1>lofimood</h1>
+                <p>v0.0.7</p>
+            </hgroup>
+
+            <hgroup id="im-content">
+                <p>Bem vindo(a) ao lofimood! Uma plataforma onde você pode ouvir músicas lofi sem interrupções enquanto
+                    estuda, trabalha, faz exercício ou qualquer outra coisa!</p>
+                <p>Os gifs nessa plataforma são dinâmicos, portanto de acordo com o horário em seu computador, eles
+                    estarão ajustados para noite ou dia, para que você tenha uma maior imersão enquanto escuta as
+                    batidas do lo-fi hip hop.</p>
+                <p>O site ainda está na versão alpha, portanto é normal que algumas coisas não funcionem e que ocorra
+                    alguns bugs. Caso aconteça, tente reiniciar a página, e também já agradeço se puder contar qual foi
+                    o bug, por meio do primeiro icone do cabeçalho da página!
+                <p>
+                    <p>Ah! só pra lembrar, este site utiliza cookies para melhorar a experiência do usuário. Caso aceite, clique no botão abaixo.</p>
+            </hgroup>
+
+            <button onclick="btnAceito(); playTrack();" id="btn-aceito">Aceito!</button>
+        </div>
+    </section>
+
+
     <!-- Seção do Menu Login/Cadastro -->
     <section class="Login-Singup">
         <div id="blackback"></div>
@@ -77,7 +105,6 @@
 
                 <div onclick="closeMenuGalery()" id="Xbtn"></div>
             </div>
-
         </div>
     </section>
 
@@ -163,6 +190,7 @@
     <script src="../js/Agifs/gifList.js"></script>
     <script src="../js/Agifs/day-night.js"></script>
     <script src="../js/Agifs/gif-system.js"></script>
+    <script src="../js/close-initialmsg.js"></script>
 
 </body>
 

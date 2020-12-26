@@ -14,4 +14,4 @@ window.setInterval(function(){
     } else {
         frame.style.backgroundImage = gifListNight[currentGIF].src;
     }
-}, 300000);
+}, 180000);

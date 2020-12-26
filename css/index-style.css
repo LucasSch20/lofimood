@@ -19,6 +19,101 @@ body {
     background-color: #131313;
 }
 
+/* Formatação da Mensagem Inicial: */
+
+.initial-msg {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+#im-container {
+    position: relative;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 50%;
+    width: 35%;
+    background-color: #131313;
+    border-radius: 10px;
+    animation-name: initialMessage;
+    animation-duration: 0.5s;
+    padding: 2%;
+}
+#im-container hgroup#im-title {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'Inter Bold', sans-serif;
+    font-size: 1.5em;
+    animation-name: initialMessageTxt;
+    animation-duration: 10s;
+}
+#im-container hgroup#im-title h1 {
+    padding: 0;
+    margin: 0 5px 0 0;
+}
+#im-container hgroup#im-title p {
+    padding: 0;
+    margin: 0;
+}
+
+#im-container hgroup#im-content {
+    padding:0;
+    margin-top: 10px;
+    color: white;
+    text-align: left;
+    width: 95.6188%;
+    height: 70%;
+    font-family: 'Inter Regular', sans-serif;
+    font-size: 1em;
+    overflow: auto;
+}
+hgroup#im-content p{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+#im-container button {
+    height: 50px;
+    width: 100px;
+    border-style: none;
+    margin-top: 10px;
+    border-radius: 10px;
+    font-family: 'Inter Regular', sans-serif;
+}
+#im-container button:hover {
+    cursor: pointer;
+}
+
+@keyframes initialMessage{
+    from {
+        height: 0;
+        width:0;
+    }
+    to{
+        height: 50%;
+        width: 35%;
+    }
+}
+
+@keyframes InitialMessageTxt{
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 100%;
+    }
+}
+
 /* Formatação do corpo do cabeçalho */
 
 .header {
@@ -185,6 +280,7 @@ body {
 /* Formatação dos cabeçalhos dos menus FIM */
 
 
+/* menu login/cadastro: */
 .Login-Singup {
     position: fixed;
     display: none;
@@ -219,7 +315,7 @@ body {
 }
 
 
-
+/* menu perfil: */
 .Profile {
     position: fixed;
     display: none;
@@ -252,7 +348,7 @@ body {
 }
 
 
-
+/* menu configurações: */
 .Configuration {
     position: fixed;
     display: none;
@@ -287,7 +383,7 @@ body {
 }
 
 
-
+/* menu galeria: */
 .Galery {
     position: fixed;
     display: none;
@@ -322,7 +418,7 @@ body {
 }
 
 
-
+/* menu sobre/politicas: */
 .About-Policies {
     position: fixed;
     display: none;
@@ -357,7 +453,7 @@ body {
 }
 
 
-
+/* classe do fundo escuro: */
 #blackback {
     position: absolute;
     display: block;
