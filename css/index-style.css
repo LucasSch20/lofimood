@@ -29,7 +29,6 @@ body {
     height: 100%;
     width: 100%;
 }
-
 #im-container {
     position: relative;
     z-index: 100;
@@ -62,7 +61,6 @@ body {
     padding: 0;
     margin: 0;
 }
-
 #im-container hgroup#im-content {
     padding:0;
     margin-top: 10px;
@@ -78,10 +76,6 @@ hgroup#im-content p{
     margin: 0;
     padding: 0;
 }
-
-
-
-
 #im-container button {
     height: 50px;
     width: 100px;
@@ -93,7 +87,6 @@ hgroup#im-content p{
 #im-container button:hover {
     cursor: pointer;
 }
-
 @keyframes initialMessage{
     from {
         height: 0;
@@ -104,7 +97,6 @@ hgroup#im-content p{
         width: 35%;
     }
 }
-
 @keyframes InitialMessageTxt{
     from {
         opacity: 0;
@@ -248,6 +240,12 @@ hgroup#im-content p{
 
 /* Formatação dos cabeçalhos dos menus */
 
+
+.codeblock {
+    display: block;
+    position: relative;
+    width: 100%;
+}
 .MenuTitle {
     display: flex;
     justify-content: space-between;

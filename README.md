@@ -12,4 +12,4 @@
 * Fazer a
 
 ## Bugs e problemas:
-* Arrumar o sistema de pastas, que está errado [] IMPORTANTE;
+* Arrumar o sistema de pastas, que está errado [X] (fixed com redirect) IMPORTANTE;
