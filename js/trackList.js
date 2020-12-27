@@ -9,12 +9,12 @@ track2 = {
     src: '../itens/musics/Pray_160k.mp3'
 },
 track3 = {
-    name: '' ,
-    src: ''
+    name: 'RUDE - Eternal Youth' ,
+    src: '../itens/musics/RUDE - Eternal Youth_160k.mp3'
 },
 track4 = {
-    name: '' ,
-    src: ''
+    name: 'Snowman - WYS' ,
+    src: '../itens/musics/Snowman_160k.mp3'
 },
 track5 = {
     name: '' ,
