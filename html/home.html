@@ -40,6 +40,21 @@
         </div>
     </section>
 
+    <!-- Crédito dos Artistas: -->
+
+    <section class="artist-credit">
+        <div id="blackback"></div>
+        <div id="ac-container">
+            <div class="MenuTitle">
+                <div class="MenuHead">
+                    <div id="CreditIcon"></div>
+                    <h1>Créditos aos Artistas</h1>
+                </div>
+
+                <div onclick="closeArtistCredit()" id="Xbtn"></div>
+            </div>
+        </div>
+    </section>
 
     <!-- Seção do Menu Login/Cadastro -->
     <section class="Login-Singup">
@@ -175,6 +190,7 @@
         <div id="track-name">
             <div id="tn-itens">
                 <h1 id="tn-text">90sFlav - Call Me</h1>
+                <div onclick="openArtistCredit()" id="artist-credit-btn"></div>
             </div>
         </div>
 
@@ -192,7 +208,7 @@
 
         </div>
 
-        <audio id="audio" src="../itens/musics/90sFlav - Call me_160k.mp3"></audio>
+        <audio preload="auto" id="audio" src="../itens/musics/90sFlav - Call me_160k.mp3"></audio>
     </section>
 
     <script src="../js/player/player-updown.js"></script>

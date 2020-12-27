@@ -1,7 +1,12 @@
 # lofimood
    Lofimood é um site onde você pode ouvir as músicas do gênero lofi mais escutadas em todo o mundo, enquanto assiste gifs e imagens dinâmicos que vão te jogar em uma maior imersão e melhorar a sua experiência
 
-## A Fazer:
+## Goals para a versão 0.0.8:
+* Arrumar as fontes de todo o site []
+* Terminar de colocar todos os ícones []
+* Fazer o Design do resto do site []
+
+## Crucial para a versão Beta:
 * Terminar de desenvolver index do site [X]
 * Criar o sistema do player [X]
 * Criar o sistema das imagens e gifs [X]
@@ -9,7 +14,7 @@
 * Fazer a página do perfil []
 * Fazer a página das Config []
 * Fazer a página das Imagens e GIFS []
-* Fazer a
+* Fazer a página do Login e Cadastro []
 
 ## Bugs e problemas:
 * Arrumar o sistema de pastas, que está errado [X] (fixed com redirect) IMPORTANTE;

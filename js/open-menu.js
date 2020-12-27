@@ -52,3 +52,14 @@ function closeMenuPolicies() {
 
     menuProfile.style.display = 'none'
 }
+
+function openArtistCredit() {
+    var artistCredit = document.querySelector('.artist-credit');
+
+    artistCredit.style.display = 'flex';
+}
+function closeArtistCredit() {
+    var artistCredit = document.querySelector('.artist-credit');
+
+    artistCredit.style.display = 'none';
+}
