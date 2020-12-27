@@ -6,6 +6,11 @@
 * Terminar de colocar todos os ícones []
 * Fazer o Design do resto do site []
 
+
+## Goals para a versão 0.0.9:
+* Fazer a ordem dos arrays dos GIFS e das músicas, serem aletórios []
+
+
 ## Crucial para a versão Beta:
 * Terminar de desenvolver index do site [X]
 * Criar o sistema do player [X]
