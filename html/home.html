@@ -62,7 +62,8 @@
                     minima, ullam dolores, velit nesciunt sequi aliquam error libero officiis aperiam modi blanditiis
                     vitae sed laboriosam consequatur! Cum cumque nobis voluptas.</p>
 
-                <h3 id="credit-link">spotify.com/artistaX <br> soundcloud.com/sameArtist</h3>
+                <h3 id="credit-link">spotify.com/artistaX</h3>
+                <h3 id="credit-link2"></h3>
             </hgroup>
         </div>
     </section>
@@ -201,7 +202,15 @@
         <div id="track-name">
             <div id="tn-itens">
                 <h1 id="tn-text"></h1>
-                <div onclick="openArtistCredit()" id="artist-credit-btn"></div>
+
+                <div id="tn-itens-itens">
+                    <div id="volume-itens">
+                        <div id="volume-icon"></div>
+                        <input type="range" name="" id="volume" min="0" max="100" value="50">
+                    </div>
+
+                    <div onclick="openArtistCredit()" id="artist-credit-btn"></div>
+                </div>
             </div>
         </div>
 
@@ -240,6 +249,7 @@
     <script src="../js/Agifs/day-night.js"></script>
     <script src="../js/Agifs/gif-system.js"></script>
     <script src="../js/close-initialmsg.js"></script>
+    <script src="../js/player/volume-system.js"></script>
 
 </body>
 

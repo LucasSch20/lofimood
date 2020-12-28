@@ -12,7 +12,7 @@
 * Fazer a ordem dos arrays dos GIFS e das músicas, serem aletórios [X] (Os arrays não estão aleatórios, mas a música inicial está)
 * Funcionalidade de Mutar o player[X]
 * Funcionalidade de Loop[X]
-* Timeline da música []
+* Sistema de aumentar e diminuir som da música [X];
 
 ## Goals para a versão 0.0.10:
 
