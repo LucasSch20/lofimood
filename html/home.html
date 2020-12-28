@@ -24,16 +24,21 @@
             </hgroup>
 
             <hgroup id="im-content">
-                <p>Bem vindo(a) ao lofimood! Uma plataforma onde você pode ouvir músicas lofi sem interrupções enquanto
+                <p>&nbsp&nbsp&nbspBem vindo(a) ao lofimood! Uma plataforma onde você pode ouvir músicas lofi sem
+                    interrupções enquanto
                     estuda, trabalha, faz exercício ou qualquer outra coisa!</p>
-                <p>Os gifs nessa plataforma são dinâmicos, portanto de acordo com o horário em seu computador, eles
+                <p>&nbsp&nbsp&nbspOs gifs nessa plataforma são dinâmicos, portanto de acordo com o horário em seu
+                    computador, eles
                     estarão ajustados para noite ou dia, para que você tenha uma maior imersão enquanto escuta as
                     batidas do lo-fi hip hop.</p>
-                <p>O site ainda está na versão alpha, portanto é normal que algumas coisas não funcionem e que ocorra
+                <p>&nbsp&nbsp&nbspO site ainda está na versão alpha, portanto é normal que algumas coisas não funcionem
+                    e que ocorra
                     alguns bugs. Caso aconteça, tente reiniciar a página, e também já agradeço se puder contar qual foi
-                    o bug, por meio do primeiro icone do cabeçalho da página!
-                <p>
-                    <p>Ah! só pra lembrar, este site utiliza cookies para melhorar a experiência do usuário. Caso aceite, clique no botão abaixo.</p>
+                    o bug, por meio do email que está no primeiro icone do cabeçalho da página!
+                </p>
+                <p>&nbsp&nbsp&nbspAh! só pra lembrar, este site utiliza cookies para melhorar a experiência do usuário.
+                    Caso aceite,
+                    clique no botão abaixo.</p>
             </hgroup>
 
             <button onclick="btnAceito(); playTrack();" id="btn-aceito">Aceito!</button>
@@ -55,7 +60,11 @@
             </div>
 
             <hgroup>
-                <p id="credit">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio atque, eveniet corrupti facilis eius deleniti natus modi quidem nemo, et repudiandae asperiores cum doloribus ut inventore reprehenderit ex fugit ab? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis minima, ullam dolores, velit nesciunt sequi aliquam error libero officiis aperiam modi blanditiis vitae sed laboriosam consequatur! Cum cumque nobis voluptas.</p>
+                <p id="credit">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio atque, eveniet
+                    corrupti facilis eius deleniti natus modi quidem nemo, et repudiandae asperiores cum doloribus ut
+                    inventore reprehenderit ex fugit ab? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
+                    minima, ullam dolores, velit nesciunt sequi aliquam error libero officiis aperiam modi blanditiis
+                    vitae sed laboriosam consequatur! Cum cumque nobis voluptas.</p>
 
                 <h3 id="credit-link">spotify.com/artistaX <br> soundcloud.com/sameArtist</h3>
             </hgroup>
@@ -72,7 +81,7 @@
                         <div id="logsigicon"></div>
                         <h1>Login/Cadastro</h1>
                     </div>
-    
+
                     <div onclick="closeMenuLogSig()" id="Xbtn"></div>
                 </div>
             </div>
@@ -91,7 +100,7 @@
                         <div id="logsigicon"></div>
                         <h1>Perfil</h1>
                     </div>
-    
+
                     <div onclick="closeMenuProfile()" id="Xbtn"></div>
                 </div>
             </div>
@@ -110,7 +119,7 @@
                         <div id="ConfigIcon"></div>
                         <h1>Configurações</h1>
                     </div>
-    
+
                     <div onclick="closeMenuConfig()" id="Xbtn"></div>
                 </div>
             </div>
@@ -130,7 +139,7 @@
                         <div id="GaleryIcon"></div>
                         <h1>Galeria</h1>
                     </div>
-    
+
                     <div onclick="closeMenuGalery()" id="Xbtn"></div>
                 </div>
             </div>
@@ -150,7 +159,7 @@
                         <div id="AbtPolIcon"></div>
                         <h1>Sobre / Políticas</h1>
                     </div>
-    
+
                     <div onclick="closeMenuPolicies()" id="Xbtn"></div>
                 </div>
             </div>
@@ -195,7 +204,7 @@
 
         <div id="track-name">
             <div id="tn-itens">
-                <h1 id="tn-text">TrackName</h1>
+                <h1 id="tn-text"></h1>
                 <div onclick="openArtistCredit()" id="artist-credit-btn"></div>
             </div>
         </div>
@@ -203,18 +212,26 @@
         <div id="player-area">
             <div id="pa-itens">
                 <div id="player-btns">
+                    <li id="loop-btn">
+                        <div onclick="loopTrackOff()" id="loopOn-btn"></div>
+                        <div onclick="loopTrackOn()" id="loopOff-btn"></div>
+                    </li>
                     <li onclick="beforeTrack()" id="before-btn"></li>
                     <li id="playpause-btn">
                         <div onclick="playTrack()" id="play-btn"></div>
                         <div onclick="pauseTrack()" id="pause-btn"></div>
                     </li>
                     <li onclick="nextTrack()" id="next-btn"></li>
+                    <li id="speak-mute-btn">
+                        <div onclick="muteTrack()" id="speak-btn"></div>
+                        <div onclick="unmuteTrack()" id="mute-btn"></div>
+                    </li>
                 </div>
             </div>
 
         </div>
 
-        <audio preload="auto" id="audio" src="../itens/musics/90sFlav - Call me_160k.mp3"></audio>
+        <audio preload="auto" id="audio" src=""></audio>
     </section>
 
 

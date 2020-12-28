@@ -658,12 +658,30 @@ hgroup#im-content p{
     align-items: center;
     list-style: none;
 }
-
 #player-btns li {
     display: inline-block;
 }
 #player-btns li:hover {
     cursor: pointer;
+}
+
+#loopOff-btn {
+    display: block;
+    height: 40px;
+    width: 40px;
+    background-image:url('../itens/ico/repeat\ escuro.png');
+    margin: 10px;
+}
+#loopOff-btn:hover {
+    background-image: url('../itens/ico/repeat\ claro.png');
+    transition: background-image 0.3s;
+}
+#loopOn-btn {
+    display: none;
+    height: 40px;
+    width: 40px;
+    background-image:url('../itens/ico/repeat\ claro.png');
+    margin: 10px;
 }
 
 #before-btn {
@@ -709,5 +727,29 @@ hgroup#im-content p{
 }
 #next-btn:hover {
     background-image: url('../itens/ico/Next\ claro.png');
+    transition: background-image 0.3s;
+}
+
+#speak-btn {
+    display: block;
+    height: 40px;
+    width: 40px;
+    background-image:url('../itens/ico/speaker\ escuro.png');
+    margin: 10px;
+}
+#speak-btn:hover {
+    background-image: url('../itens/ico/speaker\ claro.png');
+    transition: background-image 0.3s;
+}
+
+#mute-btn {
+    display: none;
+    height: 40px;
+    width: 40px;
+    background-image:url('../itens/ico/mute\ escuro.png');
+    margin: 10px;
+}
+#mute-btn:hover {
+    background-image: url('../itens/ico/mute\ claro.png');
     transition: background-image 0.3s;
 }

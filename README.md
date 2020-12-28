@@ -9,9 +9,9 @@
 
 
 ## Goals para a versão 0.0.9:
-* Fazer a ordem dos arrays dos GIFS e das músicas, serem aletórios []
-* Funcionalidade de Mutar o player[]
-* Funcionalidade de Loop[]
+* Fazer a ordem dos arrays dos GIFS e das músicas, serem aletórios [X] (Os arrays não estão aleatórios, mas a música inicial está)
+* Funcionalidade de Mutar o player[X]
+* Funcionalidade de Loop[X]
 * Timeline da música []
 
 ## Goals para a versão 0.0.10:
