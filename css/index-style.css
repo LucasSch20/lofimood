@@ -1,10 +1,20 @@
 @font-face {
-    font-family: 'InterRegular';
-    src: url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+    font-family: 'Inter';
+    src: url('../itens/fonts/Inter/Inter-Regular.otf');
+    font-weight: normal;
+    font-style: normal;
 }
 @font-face {
-    font-family: 'Inter Bold';
-    src: url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+    font-family: 'Inter';
+    src: url('../itens/fonts/Inter/Inter-Bold.otf');
+    font-weight: bold;
+    font-style:normal;
+}
+@font-face {
+    font-family: 'Inter';
+    src: url('../itens/fonts/Inter/Inter-Light-BETA.otf');
+    font-weight: lighter;
+    font-style: normal;
 }
 
 
@@ -30,7 +40,8 @@ body {
     width: 100%;
 }
 #CreditIcon {
-    background-color: white;
+    background-image: url('../itens/ico/notepad\ escuro.png');
+    background-repeat: no-repeat;
     height: 25px;
     width: 25px;
     padding-right: 10px;
@@ -47,6 +58,22 @@ body {
     animation-name: initialMessage;
     animation-duration: 0.5s;
     padding: 2%;
+}
+#ac-container hgroup {
+    padding: 0;
+    margin-top: 10px;
+}
+#ac-container p {
+    font-family: 'Inter', sans-serif;
+    font-weight: normal;
+    font-size: 0.9em;
+    color: white;
+}
+#ac-container h3 {
+    font-family: 'Inter', sans-serif;
+    font-weight: lighter;
+    font-size: 1.2em;
+    color: grey;
 }
 
 
@@ -79,33 +106,38 @@ body {
     display: flex;
     justify-content: center;
     color: white;
-    font-family: 'Inter Bold', sans-serif;
-    font-size: 1.5em;
     animation-name: initialMessageTxt;
     animation-duration: 10s;
 }
 #im-container hgroup#im-title h1 {
     padding: 0;
     margin: 0 5px 0 0;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 2.2em;
 }
 #im-container hgroup#im-title p {
     padding: 0;
     margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-weight: normal;
+    font-size: 1.5em;
 }
 #im-container hgroup#im-content {
     padding:0;
     margin-top: 10px;
-    color: white;
+    color: rgb(240, 240, 240);
     text-align: left;
     width: 95.6188%;
     height: 70%;
-    font-family: 'Inter Regular', sans-serif;
-    font-size: 1em;
     overflow: auto;
 }
 hgroup#im-content p{
     margin: 0;
-    padding: 0;
+    padding: 0;    
+    font-family: 'Inter', sans-serif;
+    font-weight: lighter;
+    font-size: 1em;
 }
 #im-container button {
     height: 50px;
@@ -113,7 +145,8 @@ hgroup#im-content p{
     border-style: none;
     margin-top: 10px;
     border-radius: 10px;
-    font-family: 'Inter Regular', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-weight: normal;
 }
 #im-container button:hover {
     cursor: pointer;
@@ -166,7 +199,8 @@ hgroup#im-content p{
 /* Formatação da Logo */
 #logo {
     color:#FFFFFF;
-    font-family: 'Inter Bold', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
     padding:0;
     margin:0;
 }
@@ -294,6 +328,7 @@ hgroup#im-content p{
 .MenuHead h1 {
     color: white;
     font-family: 'Inter', sans-serif;
+    font-weight: bold;
     margin: 0;
 }
 #Xbtn {
@@ -580,18 +615,24 @@ hgroup#im-content p{
     width: 100%;
     color: white;
     opacity: 100%;
-    font-family: 'InterRegular', sans-serif;
-    font-size: 1.2em;
+}
+#tn-text {
+    font-family: 'Inter', sans-serif;
+    font-weight: lighter;
+    font-size: 1.6em;
 }
 #artist-credit-btn {
     position: relative;
     display: block;
     width: 25px;
     height: 25px;
-    background-color: white;
+    background-image: url('../itens/ico/notepad\ escuro.png');
+    background-repeat: no-repeat;
 }
 #artist-credit-btn:hover {
     cursor: pointer;
+    background-image: url('../itens/ico/notepad\ claro.png');
+    transition: background-image 0.3s;
 }
 
 #player-area {
