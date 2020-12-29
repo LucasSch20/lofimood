@@ -343,6 +343,72 @@ hgroup#im-content p{
 
 /* Formatação dos cabeçalhos dos menus FIM */
 
+/* Classe do conteúdo dos menus (pra overflow): */
+
+.content {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 400px;
+    overflow-y: scroll;
+}
+
+
+/* Classe textblock: */
+.textblock {
+    position: relative;
+    display: block;
+    max-width: 96%;
+    max-height: 80%;
+    color: white;
+    padding: 2%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.textblock h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 1.4em;
+    margin:0;
+}
+.textblock h2 {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin:0;
+}
+.textblock h3 {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+    margin:0;
+}
+.textblock p {
+    margin:0;
+    font-family: 'Inter', sans-serif;
+    font-weight: lighter;
+    font-size: 0.9em;
+}
+.textblock div {
+    width: 100%;
+    height: 1px;
+    opacity: 50%;
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.textblock ul {
+    font-family: 'Inter', sans-serif;
+    font-weight: normal;
+    font-size: 1em;
+    margin:0;
+}
+.textblock ul li{
+    font-family: 'Inter', sans-serif;
+    font-weight: normal;
+    font-size: 0.8;
+    margin:0;
+}
 
 /* menu login/cadastro: */
 .Login-Singup {
@@ -356,7 +422,7 @@ hgroup#im-content p{
 }
 #containerLogSig {
     position: absolute;
-    display: flex;
+    display: block;
     z-index: 10;
     height: 70%;
     width: 60%;
@@ -391,7 +457,7 @@ hgroup#im-content p{
 }
 #containerProf {
     position: absolute;
-    display: flex;
+    display: block;
     z-index: 10;
     height: 70%;
     width: 60%;
@@ -424,7 +490,7 @@ hgroup#im-content p{
 }
 #containerConfig {
     position: absolute;
-    display: flex;
+    display: block;
     z-index: 10;
     height: 70%;
     width: 60%;
@@ -459,7 +525,7 @@ hgroup#im-content p{
 }
 #containerGalery {
     position: absolute;
-    display: flex;
+    display: block;
     z-index: 10;
     height: 70%;
     width: 60%;
@@ -667,7 +733,6 @@ hgroup#im-content p{
     width: 100px;
     height: 1px;
     outline: none;
-    color
 }
 #volume:hover {
     cursor: grab;
