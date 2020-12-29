@@ -66,7 +66,7 @@ body {
 #ac-container p {
     font-family: 'Inter', sans-serif;
     font-weight: normal;
-    font-size: 0.9em;
+    font-size: 1.2em;
     color: white;
 }
 #ac-container h3 {
@@ -841,9 +841,14 @@ hgroup#im-content p{
     background-image: url('../itens/ico/Pause.png');
     margin: 10px;
 }
-#pause-btn:hover {
-    background-image: url('../itens/ico/Pause\ claro.png');
-    transition: background-image 0.3s;
+
+@keyframes pausebtn {
+    from{
+        background-image: url('../itens/ico/Pause.png');
+    }
+    to {
+        background-image: url('../itens/ico/Pause\ Claro.png');
+    }
 }
 
 #next-btn {

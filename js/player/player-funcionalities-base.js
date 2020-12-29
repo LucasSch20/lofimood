@@ -116,3 +116,13 @@ function loopTrackOff() {
 volume.addEventListener('change', function () {
     music.volume = volume.value / 100;
 })
+
+//Animação do botão pause:
+pause.addEventListener('mouseenter', function(){
+    pause.style.backgroundImage = "url('../itens/ico/Pause Claro.png')";
+    pause.style.animationName = 'pausebtn';
+    pause.style.animationDuration = '0.3s'
+});
+pause.addEventListener('mouseleave', function() {
+    pause.style.backgroundImage = "url('../itens/ico/Pause.png')";
+})

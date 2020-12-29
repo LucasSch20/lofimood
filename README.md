@@ -18,6 +18,11 @@
 * Fazer conteúdo da aba About / Policies[X];
 * Otimizar o carregamento do site[];
 * Colocar Monetização[];
+* Colocar mais músicas e GIFS;
+
+## Goals para a versão 0.0.11:
+* Arrumar o problema com gif lenght[];
+
 
 
 ## Crucial para a versão Beta:
