@@ -27,6 +27,8 @@ body, html {
 
 body {
     background-color: #131313;
+    font-family: 'Inter', sans-serif;
+    color: white;
 }
 
 /* Formatação do Menu dos créditos dos artistas: */

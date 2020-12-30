@@ -1,3 +1,4 @@
+//Array que guarda as src's dos gifs de dia:
 var gifListDay = [
     {
         src: "url('../../itens/images/day/1.gif')"
@@ -17,11 +18,9 @@ var gifListDay = [
     {
         src: "url('../../itens/images/day/6.gif')"
     },
-    {
-        src: "url('../../itens/images/day/7.gif')"
-    },
 ];
 
+//Array que guarda as src's dos gifs de noite:
 var gifListNight = [
     {
         src: "url('../../itens/images/night/1.gif')"

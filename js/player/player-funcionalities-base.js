@@ -12,7 +12,7 @@ var loopOn = document.querySelector('#loopOn-btn');
 var loopOff = document.querySelector('#loopOff-btn');
 var volume = document.querySelector('#volume');
 
-var trackLenght = 3;
+var trackLenght = trackList.length - 1;
 var trackNum = Math.floor(Math.random() * (trackLenght - 0 + 1)) + 0;
 
 
