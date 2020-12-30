@@ -69,7 +69,7 @@ var trackList = [
         credits: '02 by Gui.',
         creditsLink: '',
         creditsLink2: '',
-    }
+    },
 ]
 
 

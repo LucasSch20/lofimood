@@ -54,7 +54,7 @@ function pauseTrack() {
 function nextTrack() {
     trackNum = trackNum + 1;
 
-    if (trackNum > trackLenght) {
+    if (trackNum > trackList.length) {
         trackNum = 0;
     }
 
