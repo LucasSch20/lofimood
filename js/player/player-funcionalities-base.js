@@ -54,7 +54,7 @@ function pauseTrack() {
 function nextTrack() {
     trackNum = trackNum + 1;
 
-    if (trackNum > trackList.length) {
+    if (trackNum > trackLenght) {
         trackNum = 0;
     }
 
@@ -73,7 +73,7 @@ function beforeTrack() {
 
 
     if (trackNum < 0) {
-        trackNum = 0;
+        trackNum = trackLenght;
     }
 
     credits.innerHTML = trackList[trackNum].credits;
