@@ -63,6 +63,13 @@ var trackList = [
         creditsLink: 'https://soundcloud.com/stianlofi',
         creditsLink2: 'https://twitter.com/stianlofi',
     },
+    {
+        name: 'Gui - 02',
+        src: '../itens/musics/2.mp3',
+        credits: '02 by Gui.',
+        creditsLink: '',
+        creditsLink2: '',
+    }
 ]
 
 
